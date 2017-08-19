@@ -6,14 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tresean Adam Portfolio</title>
 
+    <link rel="stylesheet" href="assets/css/reset.css">
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- custom style -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div class="container">
-        <nav>
+
+    <nav>
+        <div class="container align">
             <h1 id="name">Tresean Adam</h1>
 
             <ul>
@@ -21,10 +23,12 @@
                 <li class="linkBorder"><a href="porfolio.html">Portfolio</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-        </nav>
+        </div> <!-- container -->
+    </nav>
 
-        <section class="about">
-            <div>
+    <div class="container">
+        <section class="aboutSection">
+            <div class=aboutBody>
                 <h2 class="underline">About Me</h2>
 
                 <img src="https://placeimg.com/200/200/any" alt="placeholder image">
@@ -37,17 +41,19 @@
                 </p>
             </div>
 
-            <div class="connect">
+            <aside class="connect">
                 <h3 class="underline">Connect</h3>
                 <i class="fa fa-github-square fa-2x" aria-hidden="true"></i>
                 <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
                 <i class="fa fa-stack-overflow fa-2x" aria-hidden="true"></i>
-            </div>
+            </aside>
         </section>
-    </div>
+    </div> <!-- container -->   
 
     <footer>
-        <p>&copy; Copyright 2017 Tresean Adam</p>
+        <div class="container">
+            <p>&copy; Copyright 2017 Tresean Adam</p>
+        </div>
     </footer>
 </body>
 </html>
