@@ -1,0 +1,23 @@
+li {
+    list-style: none;
+    display: inline-flex;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+ul {
+    justify-content: flex-end;
+}
+
+#name {
+    color: #fff;
+    background-color: teal;
+}
+
+nav {
+    display: flex;
+    align-items: center
+}
