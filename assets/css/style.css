@@ -162,6 +162,24 @@ label {
     background-color: #4aaaa5;
     }
 
+/*********
+
+Portfolio
+
+*********/
+
+.portArea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 645px;
+}
+
+.PortImg {
+    flex: 1 0 48%;
+}
+
+
 /******
 
 footer
