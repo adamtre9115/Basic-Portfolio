@@ -10,7 +10,7 @@ body {
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #777777;
     background-image: url('../images/cork-wallet.png');
 }
@@ -68,8 +68,13 @@ a {
 
 #name {
     padding: 25px;
-    color: #fff;
+    /* color: #fff; */
     background-color: #4aaaa5;
+}
+
+#name a {
+    color: #fff;
+    font-size: 20px;
 }
 
 nav {
@@ -103,6 +108,10 @@ about
 
 .aboutText {
     line-height: 1.3;
+}
+
+.second {
+    margin-top: 10px;
 }
 .portfolioPic {
     padding-right: 10px;
@@ -176,6 +185,28 @@ Portfolio
 
 .portArea li {
     padding: 5px;
+}
+
+figcaption {
+    position: relative;
+    display: flex;
+    background-color: teal;
+    align-items: center;
+    height: 50px;
+    top: -25%;
+    color: white;
+    opacity: .8;
+}
+
+figcaption:hover {
+    background-color: #fff;
+    color: teal;
+}
+
+.figText {
+    display: inline-block;
+    margin: 0 auto;
+    opacity: 1;;
 }
 
 /******
